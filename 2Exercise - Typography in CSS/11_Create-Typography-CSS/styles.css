@@ -32,12 +32,13 @@ blockquote {
     border-left: 4px solid rgb(221,221,221);
     padding-left: 1.5em;
     font-style:italic  ;
+    color:#666
 }
 
 blockquote p:nth-child(even){
     margin-bottom: 2em;
 }
 
-blockquote p:last-child {
+blockquote p.author {
     text-align: right;
 }
