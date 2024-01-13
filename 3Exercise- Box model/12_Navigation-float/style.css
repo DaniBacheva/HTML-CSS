@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: rgb(238, 238, 238);
+    width: 85vw;
+    height: 200vh;
+    padding: 4em;
+    padding-right: 6em;
+    border: 2px solid #000;
+    overflow: scroll;
+
+}
+
+header {
+    border-bottom: 2px solid #000;
+    position: relative;
+}
+
+header p {
+    padding-bottom: 0.2em;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+header nav {
+    padding-bottom: 0.5em;
+    position: absolute;
+    bottom: 30%;
+    right: 0;
+}
+
+
+nav li {
+    display: inline-block;
+    color: rgb(0, 102, 0);
+    margin: 0.2em;
+}
+
+article {
+    width: 75%;
+    display: block;
+    float: left;
+}
+
+h1,
+h2 {
+    padding: 1.5em 0 0.8em;
+}
+
+
+article section:first-child {
+    position: relative;
+}
+
+.box-shadow,
+.box-shadow1 {
+    display: block;
+    float: right;
+    width: 10em;
+    background-color: rgb(254, 251, 251);
+    border: 2px solid #000;
+    padding: 0.5em;
+    margin: 0 1em;
+    box-shadow: 0 0 0.5em 0.2em rgba(0, 0, 0, 0.25);
+}
+
+.box-shadow img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.box-shadow1 {
+    float: left;
+    width: 13em;
+
+}
+
+.box-shadow1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    display: block;
+
+}
+
+aside h3 {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+}
+
+aside ul {
+    list-style: disc;
+    color:blueviolet
+
+}
+
+aside li {
+    display: block;
+    margin: 0.2em;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(0, 102, 0);
+}
+
+
+img {
+    background-color: rgb(255, 255, 255);
+
+}
+
+box-shadow {
+
+    background-color: rgb(0, 0, 0, 0.25);
+
+}
+
+blockquote {
+
+    font-family: Georgia, serif;
+
+}
+
+h2,
+h3,
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}

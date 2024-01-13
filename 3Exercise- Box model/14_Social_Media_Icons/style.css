@@ -1,0 +1,41 @@
+body {
+   
+    width: 30em;
+    height: auto;
+    border: 1px solid black;
+}
+
+
+ul {
+
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 1em;
+}
+
+a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #eee;
+    position: relative;
+
+}
+
+i {
+    color: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+  
+}
+
+ul a:first-child :hover{
+    color: #369;
+}

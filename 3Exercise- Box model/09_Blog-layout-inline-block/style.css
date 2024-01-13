@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    max-width: 50em;
+    height: auto;
+    margin: 1em auto;
+    display: block;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    padding: 1em;
+    
+}
+
+h1,
+h2,
+p,
+ul {
+    padding-bottom: 1.2em;
+}
+
+
+ul {
+    padding-left: 2em;
+}
+
+article {
+    width: 65%;
+    display: block;
+    float: left;
+}
+
+article img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+aside {
+    float: right;
+    width: 33%;
+    display: block;
+}
