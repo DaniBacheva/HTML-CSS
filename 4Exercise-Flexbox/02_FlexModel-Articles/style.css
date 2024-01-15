@@ -1,0 +1,27 @@
+* {
+    padding-left: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif ;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70vw;
+    border: 1px solid black;
+    padding: 5em;
+}
+
+article {
+    padding: 2em;
+}
+
+h2 {
+    font-family:  Georgia, serif  ;
+    padding-bottom: 1em;
+    font-weight: normal;
+}
