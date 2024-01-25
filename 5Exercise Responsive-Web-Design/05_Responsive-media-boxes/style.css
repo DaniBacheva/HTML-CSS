@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(238, 238, 238);
+    border: 2px solid #000;
+    margin: 1em;
+    font-family: Helvetica, sans-serif;
+
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    width: 25em;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    
+    box-shadow: 5px 5px #ccc;
+}
+
+.card h3 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+    margin-bottom: 1em;
+}
+
+.card p {
+    margin-bottom: 2em;
+}
+
+.card div:nth-child(2) {
+    padding: 1.5em;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.card a {
+    display: inline-block;
+    background-color: rgb(0, 153, 0);
+    text-decoration: none;
+    padding: 0.3em;
+    color: #fdf9f9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%, -80%);
+}
