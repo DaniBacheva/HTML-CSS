@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid black;
+    font: 14px/1.2 Verdana, serif;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section,
+header,
+footer {
+    font: inherit;
+}
+
+hr {
+    width: 5em;
+    align-self: center;
+    color: #000;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: purple;
+}
+
+input {
+    height: 2.5em;
+    width: 15em;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5em;
+
+}
+
+nav li {
+    display: block;
+    flex-direction: column;
+    list-style: none;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.container {
+    padding: 5em 12em 5em;
+    display: flex;
+    gap: 5em;
+
+}
+
+.heading h2,
+p {
+    padding-bottom: 1em;
+}
+
+.heading div:nth-child(1) {
+    width: 75%;
+}
+
+.heading div:nth-child(2) {
+    width: 20%;
+}
+
+.heading a {
+    display: inline-block;
+    border-radius: 0.3em;
+    border: 1px solid #ccc;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.heading svg {
+    display: block;
+    width: 6em;
+}
+
+.team header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+div.team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+.card {
+    display: block;
+    width: 26%;
+    text-align: center;
+
+}
+
+.picture {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+    margin: 0.5em auto;
+
+}
+
+.picture img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.signUp {
+    background-color: rgb(100, 21, 100);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+
+}
+
+.signUp div {
+    display: flex;
+    flex-direction: column;
+    gap: 1em
+}
+
+.signUp h2 {
+    text-align: center;
+    padding-top: 0.5em;
+    color: #fff;
+}
+
+.signUp form {
+    margin-bottom: 2em;
+
+}
+
+.signUp button {
+    padding: 0.5em 1.2em;
+}
+
+.testimonials header {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+div.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+}
+
+.card2 {
+    display: block;
+    width: 26%;
+    text-align: center;
+
+}
+
+.card2 p:nth-child(2) {
+    font-style: italic;
+}
+
+.card2 p:nth-child(3) {
+    font-weight: bold;
+}
+
+footer {
+    border-top: 5px solid #ccc;
+    display: flex;
+}
+
+footer .container {
+    gap: 0 3em;
+    padding: 2em 12em 3em;
+}
+
+.siteMap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.siteMap ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 3em;
+
+
+}
+
+.siteMap li {
+    display: inline-block;
+    padding: 0 1em;
+
+}
+
+.siteMap a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer h2,
+h3 {
+    padding-bottom: 1em;
+}
+
+footer svg {
+    width: 1em;
+}
+
+.contacts div {
+    display: flex;
+    align-content: center;
+    gap: 1em;
+}
+
+.contacts p {
+    padding-top: 0.5em;
+}
