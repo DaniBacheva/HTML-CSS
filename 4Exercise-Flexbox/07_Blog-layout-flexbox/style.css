@@ -14,9 +14,14 @@ body {
 }
 
 
-h1 {
-    font-weight: 500;
+h1,h2,h3,h4,h5,h6 {
+    font-size: 1em;
+    margin-bottom: 0.5em;
 }
+
+h1 {font-size: 2.8em;}
+h2 {font-size: 2.2em;}
+h3 {font-size: 1.8em;}
 
 h2,
 h3,
@@ -52,16 +57,16 @@ a {
 .page>header {
     border-bottom: 2px solid black;
     padding-bottom: 2em;
-    flex: 1 1 100%;
+    flex: 0 0 100%;
 }
 
 .page>main {
-    flex: 1 1 65%;
+    flex: 0 0 65%;
 
 }
 
 .page>aside {
-    flex: 1 1 25%;
+    flex: 1 0 25%;
 }
 
 .align-right {

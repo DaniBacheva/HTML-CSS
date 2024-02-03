@@ -1,15 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url(reset.css);
+
+@import url(typography.css);
 
 body {
     border: 2px solid black;
     font: 14px/1.2 Verdana, serif;
     padding: 0.5em;
-    display: flex;
-    flex-direction: column;
 }
 
 section,
@@ -29,6 +25,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 5em;
 }
 
 h1 {
@@ -60,9 +57,8 @@ nav a {
 
 
 .container {
-    padding: 5em 12em 5em;
-    display: flex;
-    gap: 5em;
+    max-width: 60em;
+    margin: 0 auto;
 
 }
 
@@ -71,8 +67,16 @@ p {
     padding-bottom: 1em;
 }
 
+.heading.container {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
 .heading div:nth-child(1) {
-    width: 75%;
+    width: 68%;
 }
 
 .heading div:nth-child(2) {
@@ -91,26 +95,30 @@ p {
 
 .heading svg {
     display: block;
-    width: 6em;
+    width: 7em;
 }
 
-.team header {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+.header {
+    margin: 2em 0;
+    text-align: center;
 }
 
-div.team {
+.team {
+
     display: flex;
     flex-wrap: wrap;
-    gap: 5em;
+
+    gap: 3em;
+}
+
+.container .team {
+    padding: 2em;
 }
 
 .card {
+    flex: 1 1 25%;
     display: block;
-    width: 26%;
     text-align: center;
-
 }
 
 .picture {
@@ -159,12 +167,7 @@ div.team {
     padding: 0.5em 1.2em;
 }
 
-.testimonials header {
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    margin-top: 2em;
-}
+
 
 div.testimonials {
     display: flex;
@@ -173,10 +176,9 @@ div.testimonials {
 }
 
 .card2 {
+    flex: 1 1 25%;
     display: block;
-    width: 26%;
     text-align: center;
-
 }
 
 .card2 p:nth-child(2) {
@@ -188,19 +190,27 @@ div.testimonials {
 }
 
 footer {
+    margin-top: 7em;
+    padding-top: 3em;
     border-top: 5px solid #ccc;
-    display: flex;
 }
 
-footer .container {
-    gap: 0 3em;
-    padding: 2em 12em 3em;
+.footer {
+    display: flex;
+    gap: 3em;
+
+}
+
+.siteMap,
+.contacts,
+.aboutUs {
+    flex: 1 1 25%;
 }
 
 .siteMap {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+
 }
 
 .siteMap ul {
@@ -213,7 +223,7 @@ footer .container {
 
 .siteMap li {
     display: inline-block;
-    padding: 0 1em;
+  
 
 }
 
@@ -227,16 +237,13 @@ h3 {
     padding-bottom: 1em;
 }
 
-footer svg {
-    width: 1em;
-}
-
-.contacts div {
+.contacts {
     display: flex;
+    flex-direction: column;
     align-content: center;
     gap: 1em;
 }
 
-.contacts p {
-    padding-top: 0.5em;
+.contacts svg {
+    width: 1em;
 }

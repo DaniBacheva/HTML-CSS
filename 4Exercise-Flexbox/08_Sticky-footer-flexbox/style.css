@@ -25,6 +25,7 @@ header {
 }
 
 footer {
+    margin-top:  auto;
     background-color: rgb(102, 102, 102);
     color: white
 }
