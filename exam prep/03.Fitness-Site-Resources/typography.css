@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif");
+
+html {
+    font: 16px/1.5 "PT Sans", serif;
+}
+
+body {
+    font: inherit;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+

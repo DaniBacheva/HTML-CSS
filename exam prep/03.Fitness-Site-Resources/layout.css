@@ -1,0 +1,57 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner,
+footer {
+    background-color: #D01919;
+}
+
+header {
+    background-color: black;
+    background: url(image/fitness-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+
+.coaches {
+    background-color: #EFEFEF;
+}
+
+.banner .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: white;
+}
+
+.banner ul {
+    display: flex;
+    gap: 1em
+}
+
+.socials li,
+.socials a {
+    display: block;
+    color: white;
+}
+
+.socials span {
+    display: none;
+}
+
+.fa-solid {
+    margin-right: 0.5em;
+}
+
+.content .container {
+    display: flex;
+    gap: 2em;
+    
+}
+
+.content .container article {
+    flex: 1, 1, 30%;
+}
