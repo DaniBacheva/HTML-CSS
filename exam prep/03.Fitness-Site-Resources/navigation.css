@@ -1,3 +1,30 @@
+.banner .container {
+    width:1300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    color: white;
+}
+
+.banner ul {
+    display: flex;
+    gap: 1em
+}
+
+.socials li,
+.socials a {
+    display: block;
+    color: white;
+}
+
+.socials span {
+    display: none;
+}
+
+.fa-solid {
+    margin-right: 0.5em;
+}
+
 .header-nav {
     padding: 1.5em;
     display: flex;

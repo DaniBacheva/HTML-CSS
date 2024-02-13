@@ -1,10 +1,9 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
 
-* { 
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -27,8 +26,9 @@ img {
 .header {
     padding-bottom: 2em;
 }
+
 .header h2,
-.header p{
+.header p {
     text-align: center;
 }
 
@@ -41,37 +41,34 @@ img {
     gap: 2em;
 }
 
-.services article {
-    display: block;
-    overflow: hidden;
-    flex: 1 1 25%;
-    border-radius: 1em;
-    background-color: #819DAF;
-    color: black;
-}
-
+.services article,
 .media {
     border-radius: 1em;
     display: block;
     overflow: hidden;
-    }
+}
+
+.services article {
+    flex: 1 1 25%;
+    background-color: #819DAF;
+    color: black;
+}
 
 .content {
     padding: 1em;
 }
 
 .content p {
-   margin: 1em 0;
+    margin: 1em 0;
 }
 
 .content a {
     display: inline-block;
     color: white;
     background-color: #327DC4;
-    padding:  0.2em 1.2em ;
+    padding: 0.2em 1.2em;
     border-radius: 2em;
     border: 1px solid #0f365a;
     outline: 1px solid white;
-    text-decoration:none;
-    
+    text-decoration: none;
 }

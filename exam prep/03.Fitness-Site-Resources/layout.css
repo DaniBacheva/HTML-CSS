@@ -18,40 +18,43 @@ header {
 
 .coaches {
     background-color: #EFEFEF;
+    padding: 2em 0;
 }
 
-.banner .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
-    color: white;
-}
-
-.banner ul {
-    display: flex;
-    gap: 1em
-}
-
-.socials li,
-.socials a {
-    display: block;
-    color: white;
-}
-
-.socials span {
-    display: none;
-}
-
-.fa-solid {
-    margin-right: 0.5em;
-}
-
-.content .container {
+.content .container,
+.coaches .container {
     display: flex;
     gap: 2em;
     
 }
 
-.content .container article {
+.content .container article,
+.coaches .container article {
     flex: 1, 1, 30%;
+    text-align: center;
+}
+
+.content .header, 
+.coaches .header {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.content .header span, 
+.coaches .header span{
+    width: 5ch;
+    height: 2px;
+    display: block;
+    margin: 1em auto;
+    background: #D01919;
+}
+
+.content .media, 
+.coaches .media {
+    margin-bottom: 1 em;
+}
+
+media img {
+    width: 15%;
+    margin: 0 auto;
 }

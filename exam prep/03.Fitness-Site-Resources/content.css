@@ -2,7 +2,29 @@
     padding: 2em;
 }
 
+.content .container {
+    display: flex;
+    gap: 2em;
+    
+}
+
+.content .container article {
+    flex: 1, 1, 30%;
+    text-align: center;
+}
 
 .content .header {
     text-align: center;
+    margin-bottom: 2em;
+}
+
+
+.content .media img {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.content .container h4 {
+    color: #D01919;
+    margin: 1em 0;
 }
