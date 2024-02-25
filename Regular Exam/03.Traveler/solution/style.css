@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.1 'Cormorant Infant'
+}
+
+p {
+    font: 18px/1.5 Karla
+}
+
+body {
+    padding: 2em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header {
+    background-image: url("images/poster.jpg");
+    background-size: cover;
+
+
+
+}
+
+.container {
+    max-width: 71em;
+    margin: 0 auto;
+}
+
+header .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3.5em 0 4.5em;
+}
+
+header .logo {
+    width: 8em;
+    height: auto;
+    overflow: hidden;
+
+}
+
+header .logo a {
+    display: block;
+
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav li {
+    list-style: none outside;
+    padding: 0 0.5em;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white
+}
+
+header .hero {
+    padding-top: 15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .hero h1 {
+    font-size: 5.6em;
+    color: white;
+    padding-bottom: 1.5em;
+    text-align: center;
+}
+
+header .hero p {
+    color: white;
+    padding-bottom: 8em;
+    max-width: 55ch;
+    text-align: center;
+}
+
+main .testimonial,
+main .content {
+    background-color: #F8F0E9;
+}
+
+main .support,
+main .local {
+    background-color: #E14747;
+}
+
+main .testimonial {
+    padding-top: 1.5em;
+}
+
+main .testimonial p {
+    padding-top: 0.8em;
+
+}
+
+main .customer {
+    padding: 1.5em 0;
+    font: 70px/1 'Cormorant Infant';
+    font-style: italic;
+    font-weight: bold;
+}
+
+main .support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .support h6 {
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+main .support p {
+    color: white;
+    padding-bottom: 3.5em;
+    max-width: 22ch;
+}
+
+main .content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4em;
+}
+
+main .content article {
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 4em;
+
+}
+
+main .content .media {
+    padding-bottom: 3em;
+}
+
+main .content h2 {
+    font-size: 5em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+main .content p {
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 2em;
+}
+
+main .content a {
+    border: 1px solid black;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 0.3em;
+    padding: 0.5em 0.8em;
+    background-color: white;
+}
+
+main .content .all {
+    padding: 0.5em 1.2em;
+    align-self: center;
+}
+
+main .local-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0;
+}
+
+main .local h2 {
+    font-size: 4em;
+       padding-bottom: 1.5em;
+    color: white
+}
+
+main .local p {
+    color: white;
+    padding-bottom: 3.5em;
+    max-width:80ch;
+    text-align: center;
+}
+
+main .local a {
+    color: black;
+    font-weight: bold;
+    border-radius: 1.7em;
+    background-color: #FAD87A;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    }
+
+footer {
+    background-color: #352B2A;
+    padding-bottom: 3em;
+}
+
+footer .logo {
+    width: 6em;
+    height: auto;
+    overflow: hidden;
+    padding: 3em 0;
+
+}
+
+footer .logo a {
+    display: block;
+
+}
+
+footer .footer-content {
+    padding-left: 10em;
+}
+
+footer .footer-content p {
+    color: white;
+    max-width: 48ch;
+    padding-bottom: 1.5em;
+}
+
+footer .footer-content p:last-child {
+    color: #6D5C58;
+}
